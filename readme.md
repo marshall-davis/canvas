@@ -76,7 +76,7 @@ Canvas is available at `/canvas` by default. You can change this with either the
 |
 */
 
-'path' => env('CANVAS_PATH_NAME', 'canvas'),
+'path' => env('CANVAS_PATH', 'canvas'),
 ```
 
 Sometimes, you may want to apply custom roles or permissions when accessing Canvas. You can create and attach any
