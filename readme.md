@@ -72,7 +72,7 @@ Canvas exposes its UI at `/canvas` by default. This can be changed by updating e
 |
 */
 
-'path' => env('CANVAS_PATH_NAME', 'canvas'),
+'path' => env('CANVAS_PATH', 'canvas'),
 ```
 
 Sometimes, you may want to apply custom roles or permissions when accessing Canvas. You can create and attach any additional middleware here:
@@ -318,4 +318,3 @@ Canvas is open-sourced software licensed under the [MIT license](license).
 - [@mithicher](https://twitter.com/mithicher)
 - [@themsaid](https://twitter.com/themsaid)
 - [@NinaLimpi](https://twitter.com/NinaLimpi)
-
